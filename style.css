@@ -38,6 +38,12 @@ button {
   line-height: 125%;
 }
 
+button:hover {
+  cursor: pointer;
+  padding: 18px 22px;
+  transition: 0.1s linear;
+}
+
 #form-habits {
   color: #fff;
   display: flex;
@@ -100,6 +106,10 @@ input {
 
   border: 2px solid #27272a;
   border-radius: 8px;
+}
+
+input:hover {
+  cursor: pointer;
 }
 
 input:checked {
